@@ -1,6 +1,8 @@
 /* desktop layout */
 @media only screen and (min-width:1280px){
-    
+    .wrapper{
+        margin: 21px 121px;
+    }
 }
 
 
