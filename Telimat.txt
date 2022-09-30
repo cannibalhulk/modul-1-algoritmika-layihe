@@ -1,0 +1,3 @@
+CSS stillerini @media query elementinin icinde yazmaliyiq..
+
+Ayrica branch yaratmali ve butun commitleri ora vermeli..
