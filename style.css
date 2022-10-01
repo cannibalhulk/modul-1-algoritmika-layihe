@@ -1,6 +1,64 @@
 /* desktop layout */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 @media only screen and (min-width:1280px){
+    .wrapper{
+        margin: 21px 121px;
+    }
+
+    .section-3 h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 32px;
+
+    }
+
+    .section-3 .sec3-flex{
+        width:50vw;
+        display: flex;
+        margin-top: 55px;
+    }
+
+    .sec3-fl-dv-title{
+        color: #1E4681;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .sec3-fl-dv-cont{
+        width:159px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .sec3-flex .sec3-flex-div:nth-child(2){
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+
+    .section-4{
+        margin-top: 100px;
+    }
+
+    .section-4 h1{
+        font-family: 'Roboto Slab',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+    }
     
+    .section-4 .sec4-ul {
+        width: 30%;
+        margin-left: -21px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+    }
 }
 
 
