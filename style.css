@@ -1,10 +1,82 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+}
+
+
 /* desktop layout */
 @media only screen and (min-width:1280px){
     .wrapper{
-        margin: 21px 121px;
+        width:100%;
     }
 }
 
+
+/*section 6 is starting*/
+.section-6{
+    background-color: #EFEFEF;
+    height: 780px;
+    padding-left: 122px;
+    padding-top: 91px;
+}
+
+.section-6 h1{
+    width: 987px;
+    height: 93px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.sec6-info{
+    width: 700px;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: 34px;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 46px;
+}
+
+.sec6-content {
+    line-height: 30px;
+    width: 700px;
+    height: 203px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.sec6-info-with-pict{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Slab';
+}
+
+.sec6-right{
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.sec6-right p{
+    width: 353px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/*Section 6 was finished*/
 
 /* tablet layout */
 @media only screen and (min-width:992px) and (max-width:1279px) {
@@ -12,7 +84,6 @@
 }
 
 /* mobile layout */
-
 @media only screen and (min-width:320px) and (min-width:991px){
 
 }
