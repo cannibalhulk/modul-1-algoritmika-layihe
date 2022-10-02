@@ -11,8 +11,14 @@ url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* desktop layout */
 @media only screen and (min-width:1280px){
-    .wrapper{
-        width:100%;
+    .section-6{
+        width: 100%;
+    }
+    .section-7{
+        width: 100%;
+    }
+    .sec8{
+        width: 100%;
     }
 }
 
@@ -232,7 +238,15 @@ url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* tablet layout */
 @media only screen and (min-width:992px) and (max-width:1279px) {
-    
+    .section-6{
+        width: 100%;
+    }
+    .section-7{
+        width: 100%;
+    }
+    .sec8{
+        width: 100%;
+    }   
 }
 
 /* mobile layout */
