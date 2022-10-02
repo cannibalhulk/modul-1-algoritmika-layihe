@@ -140,6 +140,73 @@ url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*Section 6 was finished*/
 
+
+/*section 7 is starting*/
+
+.section-7{
+    background-color: #9DC9C8;;
+    height: 700px;
+    padding-left: 122px;
+    padding-top: 179px;
+}
+
+.section-7 h1{
+    width: 908px;
+    height: 66px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.sec7-above{
+    margin-top: 54px;
+    width: 170px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.sec7-price{
+    width: 481px;
+    height: 181px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 80px;
+}
+
+.sec7-tbl{
+    margin-top: 10px;
+}
+
+.sec7-tbl th{
+    width: 294px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    line-height: 101.38%;
+}
+
+.sec7-tbl td{
+    width: 294px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.38%;
+}
+
+.sec7-tbl tr > * + * {
+    padding-left: 45px;
+  }
+
+/*Section 7 was finished*/
+
+
 /* tablet layout */
 @media only screen and (min-width:992px) and (max-width:1279px) {
     body{
