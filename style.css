@@ -144,6 +144,91 @@ url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*Section 7 was finished*/
 
+/*Footer is starting*/
+
+.sec8{
+    background-color: #000000;
+    height: 390px;
+    padding-left: 122px;
+    padding-top: 50px;
+}
+
+.sec8-wrap{
+    display: flex;
+}
+
+.sec8-left-footer, .sec8-right-footer{
+    width: 50%;
+}
+
+.sec8-social-media{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec8-social-media img{
+    margin-right: 18px;
+    background-color: transparent;
+}
+
+.sec8-left-footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    width: 230px;
+    height: 40px;
+    color: white;
+    margin-top: 170px;
+}
+
+.sec8-right-footer p{
+    width: 230px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-left: 22px;
+}
+
+.sec8-contact1 img{
+    width: 27px;
+    height: 27px;
+}
+
+.sec8-contact2 img{
+    width: 27px;
+    height: 18px;   
+}
+
+.sec8-contact1, .sec8-contact2{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+
+.sec8-contacts{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec8-finisher{
+    width: 230px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 170px;
+    color: white;
+}
+
+/*Footer was finished*/
+
 
 /* tablet layout */
 @media only screen and (min-width:992px) and (max-width:1279px) {
