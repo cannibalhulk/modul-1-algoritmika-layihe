@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 @media only screen and (min-width:1280px){
-    .wrapper{
-        margin: 21px 121px;
+
+    .section-3, .section-4{
+        padding-left: 121px;
     }
 
     .section-3 h1{
@@ -41,7 +42,7 @@
     }
 
     .section-4{
-        margin-top: 179px;
+        padding-top: 179px;
     }
 
     .section-4 h1{
@@ -65,8 +66,8 @@
 
 /* tablet layout */
 @media only screen and (min-width:992px) and (max-width:1279px) {
-    .wrapper{
-        margin: 22px 70px;
+    .section-3, .section-4{
+        padding-left: 70px;
     }
 
     .section-3 h1{
@@ -104,7 +105,7 @@
     }
     
     .section-4{
-        margin-top: 103px;
+        padding-top: 103px;
     }
 
     .section-4 h1{
@@ -128,8 +129,8 @@
 /* mobile layout */
 
 @media only screen and (min-width:320px) and (max-width:991px){
-    .wrapper{
-        margin: 36px 36px;
+    .section-3, .section-4{
+        padding-left: 36px;
     }
 
     .section-3 h1{
@@ -169,7 +170,7 @@
     }
 
     .section-4{
-        margin-top: 73px;
+        padding-top: 73px;
     }
 
     .section-4 h1{
