@@ -1,6 +1,112 @@
 /* desktop layout */
 @media only screen and (min-width:1280px){
-    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+    body{
+        margin: 0;
+    }
+    .header-logo{
+        padding-top: 21px;
+        padding-left: 121px;
+    }
+    .sec1-div1{
+        display: flex;
+        flex-direction: row;
+      
+        
+    }
+    .sec1-table:nth-child(2){
+        
+        padding-left: 57px;
+        padding-right: 57px;
+    }
+    .sec1-table{
+        display: flex;
+    }
+    .sec1-table p{
+        padding-left: 8px;
+        font-family: 'Roboto',sans-serif;
+        font-size: 20px;
+    }
+    .section-1{
+       
+        padding-left: 121px;
+        padding-top: 40px;
+    }
+    .sec1-div2{
+        margin-top: 29px;
+        display: flex;
+        justify-content: space-between;
+flex-direction: row;
+    }
+    .sec1-title1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec1-title1 p:first-child{
+        font-family: 'Roboto Slab',sans-serif;
+        font-weight: 700;
+        font-size: 80px;
+        width: 628px;
+        margin-top: -25px;
+        padding-bottom: -5px;
+    }
+    .sec1-title1 p:nth-child(2){
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        width: 414px;
+        margin-top: -85px;
+    }
+    .sec1-photo2 img:first-child{
+        width: 304px;
+        margin-right:200px;
+        padding-top: -10px;
+
+    }
+    .sec1-photo2 img:nth-child(2){
+        position: absolute;
+        width: 274px;
+        height: 41px;
+        left: 1060px;
+        top: 515px;
+        z-index: -1;
+      
+    }
+    .sec1-photo2{
+        margin-top: -45px;
+    }
+.sec1-div3{
+    position: absolute;
+    background-color: #1E4681;
+    color: white;
+   margin-top: 80px;
+   margin-left:390px;
+   width: 483.63px;
+   border-radius: 5px;
+
+
+}
+.sec1-div3 p:first-child{
+font-family: 'Roboto Slab',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+width: 430.59px;
+padding-left: 26.3px;
+padding-right: 27.02px;
+line-height: 130%;
+height: 113px;
+}
+.sec1-div3 p:nth-child(2){
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+padding-left: 225px;
+width: 280.5px;
+    }
+
 }
 
 
