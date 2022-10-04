@@ -1,2 +1,3 @@
 # © Синхронизация kurs vebsayt, 2020
-Modul-1 layihesi. 
+
+Modul-1 layihesi.
