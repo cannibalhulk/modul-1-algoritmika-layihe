@@ -11,8 +11,6 @@
     .sec1-div1{
         display: flex;
         flex-direction: row;
-      
-        
     }
     .sec1-table:nth-child(2){
         
@@ -36,7 +34,7 @@
         margin-top: 29px;
         display: flex;
         justify-content: space-between;
-flex-direction: row;
+        flex-direction: row;
     }
     .sec1-title1{
         display: flex;
@@ -59,9 +57,10 @@ flex-direction: row;
         margin-top: -85px;
     }
     .sec1-photo2 img:first-child{
+        position: absolute;
         width: 304px;
-        margin-right:200px;
-        padding-top: -10px;
+        left: 1020px;
+        top: 185px;
 
     }
     .sec1-photo2 img:nth-child(2){
@@ -80,12 +79,10 @@ flex-direction: row;
     position: absolute;
     background-color: #1E4681;
     color: white;
-   margin-top: 80px;
-   margin-left:390px;
+   margin-top: 177.62px;
+   margin-left:409px;
    width: 483.63px;
    border-radius: 5px;
-
-
 }
 .sec1-div3 p:first-child{
 font-family: 'Roboto Slab',sans-serif;
@@ -105,7 +102,79 @@ font-weight: 400;
 font-size: 20px;
 padding-left: 225px;
 width: 280.5px;
-    }
+}
+.sec2-div4{
+    display: flex;
+    flex-direction: row;
+    border-spacing: 190px;
+}
+.sec2-div5 p:first-child{
+font-family: 'Roboto Slab',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+width: 365px;
+margin-left: 121px;
+margin-top: 551px;
+}
+
+.sec2-div5 p:nth-child(2){
+margin-top: 18px;
+margin-left: 121px;
+width: 662px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+
+.sec2-photo3 img:first-child{
+margin-left: 190px;
+margin-top: 620px;
+position: absolute;
+width: 314px;
+height: 315px;
+}
+.sec2-photo3 img:nth-child(2){
+  width: 366px;
+  margin-left: 164px;
+  margin-top: 900px;
+}
+.sec2-photo4 img:first-child{
+    position: absolute;
+    width: 232px;
+    left: 121px;
+    top: 1520px;
+  
+}
+.sec2-photo4 img:nth-child(2){
+    width: 189px;
+    position: absolute;
+    left: 154px;
+    top: 1700px;
+    z-index: -1;
+}
+.sec2-table{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1580px;
+    left: 485px;
+    gap: 95px;
+}
+.sec2-table p:first-child{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+
+}
+.sec2-table p:nth-child(2){
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
 
 }
 
