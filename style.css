@@ -150,8 +150,8 @@
       }
       .sec2-photo4 .operator {
         position: absolute;
-        top: 1780px;
-        left: 150px;
+        top: 1760px;
+        left: 155px;
         z-index: -1;
         height: 32px;
       }
@@ -211,6 +211,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 55px;
+        padding-top: 23px;
     }
 
     .section-3 .sec3-flex{
@@ -576,8 +577,8 @@ body{
   }
   .sec2-photo4 .operator {
     position: absolute;
-    top: 1055px;
-    left: 70.19px;
+    top: 1058px;
+    left: 76.19px;
     z-index: -1;
     height: 18.53px;
   }
