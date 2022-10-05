@@ -23,6 +23,11 @@
       .sec1-table {
         display: flex;
       }
+
+      .sec1-table img{
+        width:22px;
+      }
+
       .sec1-table p {
         padding-left: 8px;
         font-family: "Roboto", sans-serif;
