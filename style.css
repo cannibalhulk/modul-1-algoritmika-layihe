@@ -1022,7 +1022,7 @@ top: 1124px;
 }
 
 .section-3{
-    padding-top: 35%;
+    padding-top: 200px;
 }
 
 .section-3 h1{
@@ -1030,6 +1030,8 @@ top: 1124px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 .section-3 .sec3-flex{
     width:75vw;
